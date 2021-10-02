@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_todos/views/authen_page/authen_page.dart';
+import 'package:flutter_todos/views/authen/authen_page.dart';
 
 class StartPage extends StatelessWidget {
   @override
