@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_todos/views/home_page/home_page.dart';
+import 'package:flutter_todos/views/home/home_page.dart';
 
 class RegisterPage extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();

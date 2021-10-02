@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_todos/views/authen_page/login_page.dart';
-import 'package:flutter_todos/views/authen_page/register_page.dart';
+import 'package:flutter_todos/views/authen/login_page.dart';
+import 'package:flutter_todos/views/authen/register_page.dart';
 
 class AuthenPage extends StatefulWidget {
   @override
