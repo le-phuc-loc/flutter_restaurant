@@ -13,11 +13,8 @@ class OfferPage extends StatelessWidget {
             style: TextStyle(color: Colors.black),
           ),
           backgroundColor: Colors.white,
-          automaticallyImplyLeading: false,
-          leading: MenuWidget(),
           centerTitle: true,
           shadowColor: Colors.white,
         ),
       );
-  
 }

@@ -13,7 +13,6 @@ class HistoryPage extends StatelessWidget {
             style: TextStyle(color: Colors.black),
           ),
           backgroundColor: Colors.white,
-          leading: MenuWidget(),
           centerTitle: true,
           shadowColor: Colors.white,
         ),

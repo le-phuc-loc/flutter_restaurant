@@ -35,8 +35,9 @@ class _HomePageState extends State<HomePage> {
                     currentItem = item;
                   });
                   ZoomDrawer.of(context)!.close();
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => getPage()));
                 })),
-        mainScreen: getPage());
+        mainScreen: ContentPage());
   }
 
   Widget getPage() {
