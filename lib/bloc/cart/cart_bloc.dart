@@ -22,8 +22,6 @@ class CartBloc extends Bloc<CartEvent, CartState> {
         id: event.cart.id,
         cartItems: [...items],
         user_id: event.cart.user_id,
-        deliveryMethod: event.cart.deliveryMethod,
-        paymentMethod: event.cart.paymentMethod,
       )));
     } catch (_) {
       emit(CartError());
@@ -39,8 +37,6 @@ class CartBloc extends Bloc<CartEvent, CartState> {
             cart: Cart(
                 id: event.cart.id,
                 user_id: event.cart.user_id,
-                deliveryMethod: event.cart.deliveryMethod,
-                paymentMethod: event.cart.paymentMethod,
                 cartItems: [...state.cart.cartItems, event.cartItem]),));
       } on Exception {
         emit(CartError());

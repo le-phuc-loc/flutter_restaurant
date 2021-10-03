@@ -31,6 +31,28 @@ class RegisterEvent extends AuthenEvent {
 }
 
 class LogoutEvent extends AuthenEvent {}
-class AuthenticationSuccessEvent extends AuthenEvent {
-  
-} 
+
+class AuthenticationSuccessEvent extends AuthenEvent {}
+
+class CheckEmailIsValid extends AuthenEvent {
+  final String email;
+
+  CheckEmailIsValid(this.email);
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [email];
+
+
+}
+
+class CheckPasswordIsValid extends AuthenEvent {
+  final String password;
+
+  CheckPasswordIsValid(this.password);
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [password];
+
+}

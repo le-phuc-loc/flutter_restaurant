@@ -84,9 +84,7 @@ var FAKE_CART = [
   Cart(
       id: 0,
       user_id: 0,
-      cartItems: FAKE_LIST_CART_ITEMS_1,
-      paymentMethod: 0,
-      deliveryMethod: 0)
+      cartItems: FAKE_LIST_CART_ITEMS_1,)
 ];
 
 var FAKE_PAYMENT_METHOD = [
@@ -100,21 +98,21 @@ var FAKE_DELIVERY_METHOD = [
 ];
 
 var FAKE_USER = [
-  User(
+  UserModel(
       id: 0,
       email: 'user1@gmail.com',
       password: 'password1',
       name: 'User 1',
       address: 'Address 1/2, Earth 1',
       phone: '0987654321'),
-  User(
+  UserModel(
       id: 1,
       email: 'user2@gmail.com',
       password: 'password2',
       name: 'User 2',
       address: 'Address 2/2, Earth 21',
       phone: '0789654321'),
-  User(
+  UserModel(
       id: 2,
       email: 'user3@gmail.com',
       password: 'password3',
