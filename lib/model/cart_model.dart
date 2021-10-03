@@ -8,16 +8,13 @@ class Cart {
   final int user_id;
   final List<CartItem> cartItems;
   final double totalPrice;
-  final int paymentMethod;
-  final int deliveryMethod;
+  
 
   Cart(
       {required this.id,
       required this.user_id,
       required this.cartItems,
-      this.totalPrice = 0.0,
-      required this.paymentMethod,
-      required this.deliveryMethod});
+      this.totalPrice = 0.0,});
 
   double _totalPrice() {
     if (this.cartItems == null) {
